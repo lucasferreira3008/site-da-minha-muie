@@ -78,15 +78,12 @@
         }
 
         .linhadotempo {
-            width: 400px;
+            width: 350px;
             border-radius: 30px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.527);
             padding: 10px;    
         }
 
-        hr {
-        }
-        
         div {
             text-align: center;
             margin-bottom: 30px;
@@ -94,6 +91,18 @@
 
         div > img:hover {
             box-shadow: 0px 0px 20px #C42E2F;
+        }
+
+        footer {
+            background-color: white;
+            margin: 10px 150px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        footer p{
+            padding: 0px;
+            margin: 0px;
         }
 
         
