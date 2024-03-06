@@ -39,7 +39,9 @@
         }
 
         header a:hover {
-            color: #C42E2F;
+            background-color: #c74646;
+            padding: 6px;
+            border-radius: 10px;
         }
 
         h2 {
