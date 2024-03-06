@@ -4,13 +4,45 @@
             background-image: linear-gradient(to top, white, #C42E2F);
         }
 
+        main {
+            min-width: 300px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.527);
+            margin: 15px 100px;
+        }
+
+        header h1 {
+            text-shadow: 5px 5px 30px #c42e2e8f;
+        }
+
         h1 {
             text-align: center;
+            color: rgb(0, 0, 0);
             text-shadow: 5px 5px 30px #C42E2F;
         }
 
+        header a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0px 10px 0px 10px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        header a:hover {
+            color: #C42E2F;
+        }
+
         h2 {
-            color: rgb(36, 33, 29);
+            color: black;
             text-align: center;
             text-shadow: 5px 5px 30px #C42E2F;
             
@@ -39,16 +71,22 @@
         .linhadotempo {
             width: 500px;
             border-radius: 30px;
-            box-shadow: 0px 0px 20px black;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.527);
             padding: 10px;    
         }
 
         hr {
             width: 700px;
+            color: black;
         }
         
         div {
             text-align: center;
+            margin-bottom: 30px;
+        }
+
+        div > img:hover {
+            box-shadow: 0px 0px 20px #C42E2F;
         }
 
         
